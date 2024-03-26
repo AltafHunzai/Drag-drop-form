@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Drag and Drop Form
 
-## Getting Started
+This repository contains the source code for a drag and drop form built using Next.js.
 
-First, run the development server:
+## Overview
+
+The drag and drop form allows users to easily rearrange and customize form fields according to their preferences. It provides a seamless experience for creating dynamic forms.
+
+## Demo
+
+You can access the live demo of the drag and drop form [here](https://nextjs-drag-and-drop-form.vercel.app/).
+
+## Main Dashboard
+
+![Main Dashboard](https://github.com/AltafHunzai/Drag-drop-form/assets/99405131/3d5b785f-0f89-463c-99d7-f382e80d2ae2)
+
+## Custom form builder page
+
+![Custom form builder page](https://github.com/AltafHunzai/Drag-drop-form/assets/99405131/b10aae58-5abb-46d2-a4c5-e634041f46e1)
+
+## Form submission Dashboard page
+
+![Form submission Dashboard](https://github.com/AltafHunzai/Drag-drop-form/assets/99405131/f42f5316-5257-4ec3-96ab-119092a53539)
+
+
+
+## Features
+
+- Drag and drop functionality for form fields
+- Easy customization of form layout
+- Intuitive user interface
+- Responsive design
+
+## Technologies Used
+
+- Next.js
+- React
+- HTML5
+- CSS3
+- JavaScript
+
+## Installation
+
+To run the drag and drop form locally, follow these steps:
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+git clone https://github.com/your-username/nextjs-drag-and-drop-form.git
