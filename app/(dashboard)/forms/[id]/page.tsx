@@ -156,8 +156,8 @@ async function SubmissionsTable({ id }: { id: number }) {
         <Table>
           <TableHeader>
             <TableRow>
-              {columns.map((column) => (
-                <TableHead className='uppercase'>{column.label}</TableHead>
+              {columns.map((column, index) => (
+                <TableHead key={index} className='uppercase'>{column.label}</TableHead>
               ))}
               <TableHead className='text-muted-foreground text-right uppercase'>
                 Submitted at

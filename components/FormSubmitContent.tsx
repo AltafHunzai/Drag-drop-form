@@ -38,7 +38,7 @@ function FormSubmitContent({
 
   const submitValue = useCallback((key: string, value: string) => {
     formErrors.current = {};
-    const validForm = validateForm();
+    // const validForm = validateForm();
     formValues.current[key] = value;
   }, []);
 

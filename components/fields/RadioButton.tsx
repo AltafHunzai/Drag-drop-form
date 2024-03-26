@@ -91,8 +91,8 @@ function DesignerComponent({
       </Label>
 
       <RadioGroup className={"w-full flex flex-wrap"}>
-        {options.map((option) => (
-          <div className='flex items-center space-x-2'>
+        {options.map((option, index) => (
+          <div key={index} className='flex items-center space-x-2'>
             <RadioGroupItem
               value={option}
               id={option}
@@ -151,8 +151,8 @@ function FormComponent({
           submitValue(element.id, value);
         }}
       >
-        {options.map((option) => (
-          <div className='flex items-center space-x-2'>
+        {options.map((option, index) => (
+          <div key={index} className='flex items-center space-x-2'>
             <RadioGroupItem
               value={option}
               id={option}
